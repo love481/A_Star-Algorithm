@@ -1,3 +1,0 @@
-﻿  aStar.cpp
-C:\Users\Acer\Documents\codeblocks\Astar\src\aStar.cpp(47,25): warning C4244: '=': conversion from 'float' to 'long', possible loss of data
-  Astar.vcxproj -> C:\Users\Acer\Documents\codeblocks\Astar\Debug\Astar.exe
