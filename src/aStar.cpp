@@ -1,4 +1,5 @@
 #include"aStar.h"
+#include <climits>
 int AStar::AStarSearch::totalNodeExpanded = 0;
 void AStar::AStarSearch::drawRoute(window* mainWindow,Node* parentHead)
 {    //start routing from the node other than start

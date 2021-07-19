@@ -1,2 +1,0 @@
-C:\Users\Acer\Documents\codeblocks\Astar\Debug\Astar.exe
-C:\Users\Acer\Documents\codeblocks\Astar\Debug\Astar.pdb
