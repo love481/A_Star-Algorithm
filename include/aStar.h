@@ -1,3 +1,8 @@
+/***Author:Love Panta
+**Created:2020/12/14**
+**gmail:075bei016.love@pcampus.edu.np
+*************************/
+
 #pragma once
 #ifndef ASTAR_H
 #define ASTAR_H
