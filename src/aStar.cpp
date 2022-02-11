@@ -78,7 +78,8 @@ void AStar::AStarSearch::startSearch(window *mainWindow)
 						if (g_map[i][j] > g_map[curr->x][curr->y] + sqrt(pow((curr->x - i), 2) + pow((curr->y - j), 2)))
 						{
 							g_map[i][j] = static_cast<float>(g_map[curr->x][curr->y] + sqrt(pow((curr->x - i), 2) + pow((curr->y - j), 2)));
-							f_map[i][j] = g_map[i][j]+ calculateHeuristicValue(i, j);
+							//f_map[i][j] = g_map[i][j]+ calculateHeuristicValue(i, j); //A* algorithms
+							f_map[i][j] = g_map[i][j]; //Dijkstra algorithms
 							parent[i][j] = oned_ind(curr);
 						}
 					}
